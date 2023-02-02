@@ -1,0 +1,19 @@
+# Equivalent to -m "module module module"
+# Allows dracut to build in modules such as bash...
+dracutmodules+=" masterkey crypt btrfs bash systemd-network-management systemd modsign rescue watchdog-modules dbus dbus-broker rngd network-manager network i18n url-lib bluetooth dm dmraid kernel-modules kernel-modules-extra resume udev-rules ssh-client syslog uefi-lib shutdown fs-lib base tpm2-tss "
+
+# Equivalent to --add-drivers
+add_drivers+=" r8169 iwlwifi bluetooth iwldvm iwlmvm cfg80211 "
+
+# Equivalent to --kmoddir="/lib/modules/..."
+
+# drivers_dir="/lib/modules/6.1.3-gentoo" 
+
+# Choose compression program for the image
+compress="lz4"
+
+# use /etc/fstab
+use_fstab="yes"
+
+# taking the advice of the gentoo wiki, disabling nvidia modules within ramdisk (initramfs)
+omit_drivers+=" nvidia nvidia-drm nvidia-modeset nvidia-uvm "

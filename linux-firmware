@@ -1,0 +1,79 @@
+# Remove files that shall not be installed from this list.
+# Ryzen
+amd/amd_sev_fam17h_model0xh.sbin
+amd/amd_sev_fam19h_model0xh.sbin
+amd/amd_sev_fam17h_model3xh.sbin
+amd-ucode/microcode_amd.bin
+amd-ucode/microcode_amd_fam19h.bin
+amd-ucode/microcode_amd_fam17h.bin
+amd-ucode/microcode_amd_fam15h.bin
+amd-ucode/microcode_amd_fam16h.bin
+amd-ucode/README
+# Intel Bluetooth
+intel/ibt-18-16-1.ddc
+intel/ibt-17-16-1.sfi
+intel/ibt-17-16-1.ddc
+intel/ibt-18-16-1.sfi
+# Intel AC9260 Wifi
+iwlwifi-9260-th-b0-jf-b0-33.ucode
+iwlwifi-9260-th-b0-jf-b0-34.ucode
+iwlwifi-9260-th-b0-jf-b0-38.ucode
+iwlwifi-9260-th-b0-jf-b0-41.ucode
+iwlwifi-9260-th-b0-jf-b0-43.ucode
+iwlwifi-9260-th-b0-jf-b0-44.ucode
+iwlwifi-9260-th-b0-jf-b0-45.ucode
+iwlwifi-9260-th-b0-jf-b0-46.ucode
+# NVIDIA 3070
+# GA 102
+nvidia/ga102/acr/ucode_ahesasc.bin
+nvidia/ga102/acr/ucode_asb.bin
+nvidia/ga102/acr/ucode_unload.bin
+nvidia/ga102/gr/NET_img.bin
+nvidia/ga102/gr/fecs_bl.bin
+nvidia/ga102/gr/fecs_sig.bin
+nvidia/ga102/gr/gpccs_bl.bin
+nvidia/ga102/gr/gpccs_sig.bin
+nvidia/ga102/nvdec/scrubber.bin
+nvidia/ga102/sec2/desc.bin
+nvidia/ga102/sec2/hs_bl_sig.bin
+nvidia/ga102/sec2/image.bin
+nvidia/ga102/sec2/sig.bin
+# GA 104
+nvidia/ga104/gr/NET_img.bin
+nvidia/ga104/gr/fecs_bl.bin
+nvidia/ga104/gr/fecs_sig.bin
+nvidia/ga104/gr/gpccs_bl.bin
+nvidia/ga104/gr/gpccs_sig.bin
+# Realtek NIC Family. (R8111/R8168/R8169/R8411)
+rtl_nic/rtl8105e-1.fw
+rtl_nic/rtl8106e-1.fw
+rtl_nic/rtl8106e-2.fw
+rtl_nic/rtl8107e-1.fw
+rtl_nic/rtl8107e-2.fw
+rtl_nic/rtl8125a-3.fw
+rtl_nic/rtl8125b-1.fw
+rtl_nic/rtl8125b-2.fw
+rtl_nic/rtl8153a-2.fw
+rtl_nic/rtl8153a-3.fw
+rtl_nic/rtl8153a-4.fw
+rtl_nic/rtl8153b-2.fw
+rtl_nic/rtl8153c-1.fw
+rtl_nic/rtl8156a-2.fw
+rtl_nic/rtl8156b-2.fw
+rtl_nic/rtl8168d-1.fw
+rtl_nic/rtl8168d-2.fw
+rtl_nic/rtl8168e-1.fw
+rtl_nic/rtl8168e-2.fw
+rtl_nic/rtl8168e-3.fw
+rtl_nic/rtl8168f-1.fw
+rtl_nic/rtl8168f-2.fw
+rtl_nic/rtl8168fp-3.fw
+rtl_nic/rtl8168g-1.fw
+rtl_nic/rtl8168g-2.fw
+rtl_nic/rtl8168g-3.fw
+rtl_nic/rtl8168h-1.fw
+rtl_nic/rtl8168h-2.fw
+rtl_nic/rtl8402-1.fw
+rtl_nic/rtl8411-1.fw
+rtl_nic/rtl8411-2.fw
+
